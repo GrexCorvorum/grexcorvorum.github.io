@@ -1,4 +1,5 @@
 import type { Theme } from 'unocss/preset-uno'
+import type { PresetOrFactory } from 'unocss'
 import presetAttributify from '@unocss/preset-attributify'
 import transformerDirectives from '@unocss/transformer-directives'
 import {
@@ -63,10 +64,9 @@ export default defineConfig({
       theme: {
         dark: {
           colors: { ...colorsDark, shadow: '#FFFFFF0A' },
-          // TODO 需要配置代码块颜色
         },
       }
-    }),
+    }) as PresetOrFactory<Theme>,
   ],
   theme: {
     colors: { ...colorsLight, shadow: '#0000000A' },
