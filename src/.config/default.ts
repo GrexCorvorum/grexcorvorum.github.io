@@ -14,7 +14,7 @@ export const defaultConfig: ThemeConfig = {
     socialLinks: [
       {
         name: 'github',
-        href: 'https://github.com/moeyua/astro-theme-typography',
+        href: 'https://github.com/grexcorvorum',
       },
       {
         name: 'rss',
@@ -22,8 +22,8 @@ export const defaultConfig: ThemeConfig = {
       },
       {
         name: 'twitter',
-        href: 'https://github.com/moeyua/astro-theme-typography',
-      }
+        href: 'https://x.com/grexcorvorum',
+      },
     ],
     navLinks: [
       {
