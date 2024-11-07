@@ -41,4 +41,15 @@ export default defineConfig({
       updateBodyClass: true,
     }),
   ],
+  vite: {
+    build: {
+      cssMinify: 'lightningcss'
+    },
+    css: {
+      modules: {
+        localsConvention: 'camelCaseOnly'
+      }
+    }
+
+  }
 })

@@ -5,11 +5,11 @@ import type { ThemeConfig } from '~/types'
 
 export const defaultConfig: ThemeConfig = {
   site: {
-    title: '活版印字',
-    subtitle: 'Typography',
-    author: 'Moeyua',
+    title: 'Grex Corvorum',
+    subtitle: 'The Technical Blog of',
+    author: 'King Crow',
     description: 'Rediscory the beauty of typography',
-    website: 'https://astro-theme-typography.vercel.app/',
+    website: 'https://grexcorvorum.github.io',
     pageSize: 5,
     socialLinks: [
       {
@@ -23,11 +23,7 @@ export const defaultConfig: ThemeConfig = {
       {
         name: 'twitter',
         href: 'https://github.com/moeyua/astro-theme-typography',
-      },
-      {
-        name: 'mastodon',
-        href: 'https://github.com/moeyua/astro-theme-typography',
-      },
+      }
     ],
     navLinks: [
       {
@@ -55,8 +51,8 @@ export const defaultConfig: ThemeConfig = {
     ],
   },
   appearance: {
-    theme: 'light',
-    locale: 'zh-cn',
+    theme: 'dark',
+    locale: 'en-us',
     colorsLight: {
       primary: '#2e405b',
       background: '#ffffff',
